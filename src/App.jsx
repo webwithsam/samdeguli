@@ -12,13 +12,15 @@ import "./App.css";
 
 export default function App() {
   const [startmenu , setstartmenu] = useState(false)
- const image = mimi({
-  Mainpath:"./samples/",
-  array:["0.jpg","1.jpg","2.jpg","3.jpg"]
- });
+  const image = mimi();
+//  const image = mimi({
+//   Mainpath:"./samples/",
+//   array:["0.jpg","1.jpg","2.jpg","3.jpg"]
+//  });
   return (
  <main className="desktop" style={{ backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(${image})`}}>
      <Heading/>
+     <img class="gh"   src="./samples/0.jpg" />
     <Middle/>
     {startmenu&&<StartMenu/>}
     <Taskbar startmanu={setstartmenu}></Taskbar> 
