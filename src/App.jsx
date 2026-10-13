@@ -13,7 +13,7 @@ import "./App.css";
 export default function App() {
   const [startmenu , setstartmenu] = useState(false)
  const image = mimi({
-  Mainpath:"./samples/",
+  Mainpath:"samples/",
   array:["0.jpg","1.jpg","2.jpg","3.jpg"]
  });
   return (
