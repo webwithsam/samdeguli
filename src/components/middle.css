@@ -1,0 +1,51 @@
+.middle{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* top: 10%; */
+  overflow: hidden;
+  overflow-y: scroll; /* scrolling remains available */
+  scrollbar-width: none; /* Firefox */
+  
+}
+.mydata{
+  width: 95%;
+  height: 100%;
+  background-color: rgba(12, 11, 9, 0.925);
+  position: absolute;
+  top: 0;
+  left:2.5%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  overflow: hidden;
+   overflow-y: scroll; /* scrolling remains available */
+  scrollbar-width: none; /* Firefox */
+}
+.closebtn{
+  background-color: #c5090900;
+  color: #960606;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 28px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: fixed;
+  z-index: 1;
+}
+
+.closebtn:hover {
+  background-color: #fff;
+}
+
+.closebtn:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+

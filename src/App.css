@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+
+.desktop {
+  height: 100dvh;
+  color: white;
+  /* position: relative; */
+  display :flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff; 
+}
+
+
+/* .taskbar-left {
+   justify-content: center;
+   width:100%;
+} */
+
+
+/* this is only when screen change haha hahaha haha  */
+
+ @media (max-width: 1000px) {
+.taskbar-right {display: none; }
+.taskbar {width: 100%;}
+ }
+ @media (max-width: 700px) {
+.general{flex-direction: column;}
+.ico{
+  display:none;
+}
+.last{
+  align-items:center;
+  justify-content: center;  
+   width:100%;
+}
+.heading{
+  display:block; 
+} 
+ }
+ @media (max-width: 500px) {
+  .searchog{display: none;}
+  .taskview{display:none;}
+  .windowlogo{display: none;}
+   .taskbar {width: 100%;}
+ }

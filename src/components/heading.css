@@ -1,0 +1,83 @@
+.heading{
+  display:none;
+  height: 10%;
+  width:100%;
+  position:relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #050814 0%, #0b1026 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  /* top:0;
+  z-index: 1; */
+  
+}
+.heading::before,
+.heading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border:2px solid red;
+}
+
+/* Fast, smaller twinkling stars */
+.heading::before {
+  background-image: 
+    radial-gradient(white, rgba(255,255,255,.3) 1.5px, transparent 25px),
+    radial-gradient(white, rgba(255,255,255,.2) 1px, transparent 15px);
+  background-size: 50px 50px, 60px 60px;
+  background-position: 0% 0%, 10% 10%;
+  
+  /* Continuous automatic animation */
+  animation: shine 4s infinite ease-in-out;
+}
+
+/* Slower, slightly larger glowing stars */
+.heading::after {
+  background-image: 
+    radial-gradient(rgba(255,255,255,0.9), rgba(255,255,255,.2) 2.5px, transparent 35px);
+  background-size: 400px 400px;
+  background-position: 120px 100px;
+  
+  /* Continuous automatic animation with an offset */
+  animation: shine 6s infinite ease-in-out;
+  animation-delay: 2s; 
+}
+
+/* 4. The Self-Shining Engine */
+@keyframes shine {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1.98);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(2.02); /* Makes the stars pulse organically */
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.9)); /* Gives them a live glow */
+  }
+}
+
+.myname{
+  /* border:2px solid red; */
+  width: 100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 1. Typography Basics */
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;          /* Ultra-bold for that logo look */
+  text-transform: uppercase;  /* Clean, corporate style */
+  letter-spacing: 2px;       /* Adds premium breathing room */
+  /* background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%); */
+  /* -webkit-text-fill-color: transparent; */
+  
+  /* 3. Subtle Premium Glow */
+  filter: drop-shadow(0px 4px 8px rgba(79, 172, 254, 0.3));
+  
+}
+
+
+ 
