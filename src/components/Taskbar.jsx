@@ -52,7 +52,7 @@ export default function Taskbar({startmanu}) {
       </div>
       <div className="facebook position">
       <a href="https://www.facebook.com/samuel.busuguli" target="_blank" >
-      <img src="src/assets/images/icons8-facebook-logo-94.png" alt="" />
+      <img src="./src/assets/images/icons8-facebook-logo-94.png" alt="" />
       </a>
       </div>
         <div className="github position">

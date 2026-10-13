@@ -6,9 +6,9 @@ import { myproject } from "./myproject";
 export default function General({setdata , setclose}){
   
     const ap = [
-      { name: "vscode", icon: "src/assets/desktopimages/icons8-visual-studio-code-2019-48.png" },
-      { name: "javascript", icon: "src/assets/desktopimages/icons8-js-48.png" },
-      { name: "blender", icon: "src/assets/desktopimages/icons8-blender-3d-48.png" },
+      { name: "vscode", icon: "/src/assets/desktopimages/icons8-visual-studio-code-2019-48.png" },
+      { name: "javascript", icon: "/src/assets/desktopimages/icons8-js-48.png" },
+      { name: "blender", icon: "/src/assets/desktopimages/icons8-blender-3d-48.png" },
       { name: "Expo", icon: "src/assets/desktopimages/icons8-expo-50.png" },
       { name: "Matlabs", icon: "src/assets/desktopimages/icons8-matlab-48.png" },
       { name: "git", icon: "src/assets/desktopimages/icons8-git-logo-48.png" },
