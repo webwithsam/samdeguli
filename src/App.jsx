@@ -20,7 +20,7 @@ export default function App() {
   return (
  <main className="desktop" style={{ backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(${image})`}}>
      <Heading/>
-     <img class="gh"   src="./samples/0.jpg" />
+     <img class="gh" src="/3.jpg" />
     <Middle/>
     {startmenu&&<StartMenu/>}
     <Taskbar startmanu={setstartmenu}></Taskbar> 
