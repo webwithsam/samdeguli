@@ -34,7 +34,7 @@ export default function Taskbar({startmanu}) {
           else{startmanu(false);settest(true)}
         }
                                    }>
-      <img src="src/assets/images/icons8-windows-10-48.png" />
+      <img src="./src/assets/images/icons8-windows-10-48.png" />
        </div>
       <div className="searchog">
         <div className="search">
@@ -48,7 +48,7 @@ export default function Taskbar({startmanu}) {
         </div>
       </div>
       <div className="taskview position">
-        <img src="/src/assets/images/icons8-task-view-48.png" alt=""  />
+        <img src="../src/assets/images/icons8-task-view-48.png" alt=""  />
       </div>
       <div className="facebook position">
       <a href="https://www.facebook.com/samuel.busuguli" target="_blank" >
