@@ -321,7 +321,7 @@ max-width: 650px;
 @media (max-width: 550px) {
 
 .contact-heading h2 {
-font-size: 42px;
+font-size:clamp(1.5rem,4vw,3rem);
 }
 
 .contact-heading p {

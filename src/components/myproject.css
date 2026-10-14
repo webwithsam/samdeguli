@@ -306,7 +306,16 @@ gap: 25px;
 display:grid;
 grid-template-columns: 1fr;
 }
-
+.project-card {
+width: 100%;
+/* border: 1px solid rgba(128, 128, 128, 0.25);
+border-radius: 16px;
+overflow: hidden;
+transition:
+transform 0.3s ease,
+border-color 0.3s ease;
+height:fit-content; */
+}
 }
 
 /* =========================

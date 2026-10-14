@@ -38,7 +38,7 @@ export const contactme =
     <div className="contact-links">
 
       <a href="mailto:samuelbusuguli@gmail.com" className="contact-item">
-        <span className="contact-icon"><img src="\src\assets\images\icons8-gmail-logo-94.png" /></span>
+        <span className="contact-icon"><img src="./images/icons8-gmail-logo-94.png" /></span>
 
         <div>
           <small>Email</small>
@@ -47,7 +47,7 @@ export const contactme =
       </a>
 
       <a href="https://wa.me/2550742153438" target="_blank" className="contact-item">
-        <span className="contact-icon"><img src="\src\assets\images\icons8-whatsapp-logo-94.png" /></span>
+        <span className="contact-icon"><img src="./images/icons8-whatsapp-logo-94.png" /></span>
 
         <div>
           <small>Whatapp me</small>
@@ -56,7 +56,7 @@ export const contactme =
       </a>
 
       <a href="#" className="contact-item">
-        <span className="contact-icon"><img src="\src\assets\images\icons8-call-60.png" /></span>
+        <span className="contact-icon"><img src=".\images\icons8-call-60.png" /></span>
 
         <div>
           <small>Call me </small>

@@ -34,7 +34,7 @@ export default function Taskbar({startmanu}) {
           else{startmanu(false);settest(true)}
         }
                                    }>
-      <img src="./src/assets/images/icons8-windows-10-48.png" />
+      <img src="./images/icons8-windows-10-48.png" />
        </div>
       <div className="searchog">
         <div className="search">
@@ -48,31 +48,31 @@ export default function Taskbar({startmanu}) {
         </div>
       </div>
       <div className="taskview position">
-        <img src="../src/assets/images/icons8-task-view-48.png" alt=""  />
+        <img src="./images/icons8-task-view-48.png" alt=""  />
       </div>
       <div className="facebook position">
       <a href="https://www.facebook.com/samuel.busuguli" target="_blank" >
-      <img src="./src/assets/images/icons8-facebook-logo-94.png" alt="" />
+      <img src="./images/icons8-facebook-logo-94.png" alt="" />
       </a>
       </div>
         <div className="github position">
       <a href="https://github.com/webwithsam" target="_blank" >
-      <img src="src/assets/images/icons8-github-94.png" alt="" />
+      <img src="./images/icons8-github-94.png" alt="" />
       </a>
       </div>
         <div className="instagram position">
       <a href="https://www.instagram.com/samuel_busuguli?stkn=MWN4N3dpYm1iZXY4aw==" target="_blank" >
-      <img src="src/assets/images/icons8-instagram-logo-94.png" alt="" />
+      <img src="./images/icons8-instagram-logo-94.png" alt="" />
       </a>
       </div>
         <div className="linkedin position">
       <a href="https://linkedin.com/in/sam-busuguli-a7a3a92a6" target="_blank" >
-      <img src="src/assets/images/icons8-linkedin-logo-48.png" alt="" />
+      <img src="./images/icons8-linkedin-logo-48.png" alt="" />
       </a>
       </div>  
         <div className="whatsapp position">
       <a href="https://wa.me/2550742153438" target="_blank" >
-      <img src="\src\assets\images\icons8-whatsapp-logo-94.png" alt="" />
+      <img src="./images/icons8-whatsapp-logo-94.png" alt="" />
       </a>
       </div>
       </div>
@@ -81,15 +81,15 @@ export default function Taskbar({startmanu}) {
            <div className="show-hidden-icons"><div>^</div></div>
            <div className="eng"><div>ENG</div><div>US</div></div>
            <div className="some">
-           <img src="src/assets/images/icons8-wifi-24.png" alt="" />
-           <img src="src/assets/images/icons8-speaker-26.png" alt=""  />
+           <img src="./images/icons8-wifi-24.png" alt="" />
+           <img src="./images/icons8-speaker-26.png" alt=""  />
            </div>
            <div className="clock">
            <div className="theclock">
           <div style={{marginLeft:"auto"}}>{time}</div>
           <div>{date}</div> 
            </div>
-           <img src="src/assets/images/icons8-notification-48.png" alt=""  />
+           <img src="./images/icons8-notification-48.png" alt=""  />
             </div>
 
        

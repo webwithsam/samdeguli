@@ -6,16 +6,16 @@ import { myproject } from "./myproject";
 export default function General({setdata , setclose}){
   
     const ap = [
-      { name: "vscode", icon: "/src/assets/desktopimages/icons8-visual-studio-code-2019-48.png" },
-      { name: "javascript", icon: "/src/assets/desktopimages/icons8-js-48.png" },
-      { name: "blender", icon: "/src/assets/desktopimages/icons8-blender-3d-48.png" },
-      { name: "Expo", icon: "src/assets/desktopimages/icons8-expo-50.png" },
-      { name: "Matlabs", icon: "src/assets/desktopimages/icons8-matlab-48.png" },
-      { name: "git", icon: "src/assets/desktopimages/icons8-git-logo-48.png" },
-      { name: "Mongo-Db", icon: "src/assets/desktopimages/icons8-mongo-db-48.png" },
-      { name: "github", icon: "src/assets/desktopimages/icons8-github-logo-94.png" },
-      { name: "react", icon: "src/assets/desktopimages/icons8-react-40.png" },
-      { name: "React-native", icon: "src/assets/desktopimages/icons8-react-native-50.png" }
+      { name: "vscode", icon: "./desktopimages/icons8-visual-studio-code-2019-48.png" },
+      { name: "javascript", icon: "./desktopimages/icons8-js-48.png" },
+      { name: "blender", icon: "./desktopimages/icons8-blender-3d-48.png" },
+      { name: "Expo", icon:"./desktopimages/icons8-expo-50.png" },
+      { name: "Matlabs", icon:"./desktopimages/icons8-matlab-48.png" },
+      { name: "git", icon:"./desktopimages/icons8-git-logo-48.png" },
+      { name: "Mongo-Db", icon:"./desktopimages/icons8-mongo-db-48.png" },
+      { name: "github", icon:"./desktopimages/icons8-github-logo-94.png" },
+      { name: "react", icon:"./desktopimages/icons8-react-40.png" },
+      { name: "React-native", icon:"./desktopimages/icons8-react-native-50.png" }
     ];
     const data =[
       { name: "Myprojects", icon: "📁" },
@@ -64,30 +64,30 @@ With a strong foundation in JavaScript, React, React Native, Node.js, and modern
       }}
     />
         </div>
-        <div className="last">
-        <div className="single" onClick={()=>{
-        setclose(true);
-        setdata(myproject);
-        }}>
-            <span className="appimage">{data[0].icon}</span>
-            <span>{data[0].name}</span>
-        </div>
-        <div className="single" onClick={()=>{
-        setclose(true);
-        setdata(aboutme);
-        }}>
-            <span className="appimage">{data[1].icon}</span>
-            <span>{data[1].name}</span>
-        </div>
-        <div className="single" onClick={()=>{
-        setclose(true);
-        setdata(contactme);
-        }}>
-            <span className="appimage">{data[2].icon}</span>
-            <span>{data[2].name}</span>
-        </div>
-     
-        </div>
+      <div className="last">
+      <div className="single" onClick={()=>{
+      setclose(true);
+      setdata(myproject);
+      }}>
+      <span className="appimage">{data[0].icon}</span>
+      <span>{data[0].name}</span>
+      </div>
+      <div className="single" onClick={()=>{
+      setclose(true);
+      setdata(aboutme);
+      }}>
+      <span className="appimage">{data[1].icon}</span>
+      <span>{data[1].name}</span>
+      </div>
+      <div className="single" onClick={()=>{
+      setclose(true);
+      setdata(contactme);
+      }}>
+      <span className="appimage">{data[2].icon}</span>
+      <span>{data[2].name}</span>
+      </div>
+
+      </div>
     </div>
 )
 }
